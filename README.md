@@ -32,9 +32,10 @@ End of program.
 
 ## PROGRAM
 ```python
-NAME : GANAPATHI VENKATESH
-REG NO : 212220230018
+NAME : ELURU GANESH
+REG NO : 212220230016
  ```
+```python
 %matplotlib inline
 import matplotlib.pyplot as plt
 import random
@@ -186,11 +187,13 @@ print("Total Distance={0} Kilometers".format(goal_state_path.path_cost))
 ```
 
 ## OUTPUT:
+
 ![image](https://github.com/Ganesh517/BreadthFirstSearch/blob/main/gani.png)
 
 
 
 ## SOLUTION JUSTIFICATION:
+
 Route follow the minimum distance between locations using breadth-first search.BFS is a traversing algorithm where you should start traversing from a selected node (source or starting node) and traverse the graph layerwise thus exploring the neighbour nodes (nodes which are directly connected to source node). You must then move towards the next-level neighbour nodes.
 As the name BFS suggests, you are required to traverse the graph breadthwise as follows:
 1.First move horizontally and visit all the nodes of the current layer
